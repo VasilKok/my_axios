@@ -6,7 +6,7 @@ import minimist from 'minimist'
 const argv = minimist(process.argv.slice(2));
 
   gulp.task('default', async function(){
-  console.log('hello!');
+  console.log('hello');
 });
 
 const clear = gulp.task('clear', async function() {
