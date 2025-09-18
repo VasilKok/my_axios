@@ -19,7 +19,6 @@ const bower = gulp.task('bower', async function () {
 
   const fields = [
     'name',
-    'description',
     'version',
     'homepage',
     'license',
